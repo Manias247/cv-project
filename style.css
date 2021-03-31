@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.header {
+    padding: 30px;
+    background-color:rgba(165, 42, 42, 0.795);
+    color: cornsilk;
+    text-align: center;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 102px;
+  }
+
+  .hello {
+    color: black; 
+
+    margin: 10px 0 0 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 30em;
+    animation: type 4s steps(60, end) infinite alternate; 
+    
+  }
+  
+  @keyframes type{ 
+    from { width: 0; } 
+  }
+.learning {
+  height: 5vh;
+}
+
+#box {
+    width: 50%;
+    height: 500px;
+    float: center;
+   
+
+}
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+.photo {
+    height: 200px;
+    width: 200px;
+    float: right;
+    padding: 20px;
+}
+.column {
+    text-align: center;
+    float: left;
+    width: 50%;
+    padding: 20px;
+    height: 300px; 
+  }
+  #hello {
+    padding: 70px 20px;
+      margin: auto;
+      display: inline-block;
+      text-align: left;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.mySkills {
+  width: 100%;
+  padding: 20px;
+  margin: 30px;
+}
+  #box {
+      display: inline-block;
+      width: 50%;
+      margin: auto;
+  }
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+  .skill-container {
+    width: 100%;
+    background-color: rgb(212, 212, 212);
+    margin: 20px;
+    
+   
+  }
+
+  .skills {
+    width: 40%;
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: cornsilk;
+    
+  }
+ 
+  .js:hover {
+    background-color: rgba(218, 54, 92, 0.788)
+  }
+  .vue:hover {
+    background-color: rgba rgba(231, 80, 125, 0.959)
+  }
+  .css:hover {
+    background-color: rgba(220, 157, 93, 0.788)
+  }
+  .html:hover {
+    background-color: rgba(220, 110, 93, 0.788)
+  }
+
+  .js {width: 40%; background-color: rgb(218, 54, 93); }
+  .vue{width: 40%; background-color: rgb(189, 52, 93); }
+  .css {width: 50%; background-color: rgb(220, 157, 93); }
+  .html {width: 70%; background-color: rgb(220, 110, 93); }
+
+.icon {
+  width: 40px;
+  height: 40px;
+}
+li{
+  list-style: none;
+}
+.more {
+  border: none;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+  
+}
+
+
+
+
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
